@@ -41,6 +41,7 @@
 body {
   background-color: #FFC300;
   font-family: Trebuchet MS, Arial, sans-serif;
+  color: white;
   line-height: 1;
 }
 
@@ -50,6 +51,35 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.hero .box {
+  background-color: #000814;
+  color: white;
+}
+.hero .box nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero .box nav ul {
+  display: flex;
+  color: white;
+  list-style-type: none;
+  gap: 1rem;
+}
+.hero .box nav ul li a {
+  color: white;
+}
+.hero .box .hero-content {
+  display: flex;
+  align-items: center;
+}
+.hero .box .hero-content div {
+  width: 50%;
+}
+.hero .box .hero-content img {
+  width: 50%;
 }
 
 .m-1 {
